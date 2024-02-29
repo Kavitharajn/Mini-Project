@@ -1,0 +1,42 @@
+<section class="register" id="register">        
+<script>
+    function myFunction() {
+      alert("Register clicked");
+    }
+</script>
+<
+function phonenumber(inputtxt)
+{
+  var phoneno = /^\d{10}$/;
+  if((inputtxt.value.match(phoneno))
+        {
+      return true;
+        }
+      else
+        {
+        alert("message");
+        return false;
+        }
+}
+
+
+    <h1 class="heading">register now</h1>
+
+
+
+
+        <div class="inputBox">
+            <input type="text" placeholder="first name" id="name">
+            <input type="text" placeholder="last name" id="lname">
+        </div>
+
+        <div class="inputBox">
+            <input type="email" placeholder="your email" id="email">
+            <input type="number" placeholder="your number" id="num">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+
+        <button onclick="myFunction()" class="btn">register</button>
+
+    </form>
